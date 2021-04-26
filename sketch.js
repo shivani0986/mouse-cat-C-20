@@ -9,11 +9,11 @@ var gardenImage;
 var cat_running
 function preload() {
     //load the images here
-    cat_running = loadAnimation("images/cat2.png","images/cat3.png");
-    mouse_running = loadAnimation("images/mouse2.png","images/mouse3.png");
-    catImage = loadImage("images/cat4.png");
-    mouseImage = loadImage("images/mouse1.png");
-    gardenImage = loadImage("images/garden.png");
+    cat_running = loadAnimation("cat2.png","cat3.png");
+    mouse_running = loadAnimation("mouse2.png","mouse3.png");
+    catImage = loadImage("cat4.png");
+    mouseImage = loadImage("mouse1.png");
+    gardenImage = loadImage("garden.png");
     //music = loadSound("p5.sound.js");
 }
 
